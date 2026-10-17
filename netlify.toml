@@ -1,4 +1,4 @@
 [build]
-  command = "npm run build"
+  command = "node node_modules/vite/bin/vite.js build"
   publish = "dist"
   functions = "netlify/functions"
